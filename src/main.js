@@ -8,11 +8,14 @@ let list=document.querySelector("#todo-list");
 bt.onclick=function (){
     form.style.backgroundColor=`red`;
     head.textContent="Hello";
+    alert("버튼 눌렀음")
 }
+
 //색깔 바꾸기
 form.style.backgroundColor=`blue`;
+
 //텍스트 바꾸기
 // head.textContent="Hello";
 //태그 변경하기
-list.lastElementChild.innerHTML="<h1>HelloWorld</h1>";
+list.lastElementChild.innerHTML="<h1>안녕하세요</h1>";
 //태그 추가하기
