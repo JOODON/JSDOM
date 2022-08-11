@@ -36,7 +36,6 @@ let a=function (){
     newDiv.style.height=`100px`
     area.appendChild(newDiv);//이 안에다가 생성해준다 라는 뜻
 }
-
 //이벤트 달기
 bt1.addEventListener(`click`,handClick);
 bt2.addEventListener(`click`,a);
